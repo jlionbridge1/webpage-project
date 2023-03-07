@@ -6,7 +6,8 @@ body {
 
 .header {
     padding-bottom: 45px;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .header, .footer {
@@ -15,9 +16,10 @@ body {
 
 }
 
-.header > .bar {
+.header > .left {
     display: flex;
     justify-content:space-around;
+    flex-direction: column;
 
 }
 
@@ -42,7 +44,7 @@ body {
     
 }
 
-.body > img {
+.head-image {
     width: 300px;
     height: 300px;
     
@@ -68,7 +70,9 @@ a:link, a:visited {
     
 }
 
-.body {
+.right {
     display: flex;
+    flex-direction: column;
     justify-content:space-around;
+
 }
