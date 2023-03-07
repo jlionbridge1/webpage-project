@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    padding-bottom: 45px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -16,19 +16,26 @@ body {
 
 }
 
-.header > .left {
+.header > .left, .right  {
     display: flex;
     justify-content:space-around;
     flex-direction: column;
-
+ 
 }
+
+.right {
+    align-items: flex-end;
+    
+}
+
 
 
 
 .hero {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 400px;
+    height: auto;
     word-wrap: normal;
     justify-content: center;
 }
@@ -45,8 +52,8 @@ body {
 }
 
 .head-image {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     
 }
 
@@ -61,18 +68,20 @@ button {
 a:link, a:visited {
     color: white;
     text-decoration: none;
-    padding-right: 25px;
+
+    
 }
 
 .links {
     margin-top: 24px;
-    
+    margin-bottom: 60px;
+    display: flex;
+    gap: 25px;
     
 }
 
-.right {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-
+.logo {
+    margin-top: 0;
+    font-size: 24px;
+    
 }
