@@ -62,6 +62,8 @@ button {
     padding: 5px 18px;
     border-radius: 8px;
     width: 100px;
+    
+    font-weight: bold;
 }
 
 a:link, a:visited {
@@ -151,11 +153,23 @@ a:link, a:visited {
 .action {
     background-color: #3882F6;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 700px;
+    width: 1000px;
     border-radius: 10px;
+    padding: 10px;
 
+}
+
+.action-title {
+    margin-bottom: 0;
+    
+
+}
+
+.sub-text {
+    margin-top: 0;
+    
 }
 
 .action-button {
