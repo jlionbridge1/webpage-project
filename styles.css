@@ -127,6 +127,7 @@ a:link, a:visited {
     align-items: center;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding: 50px;
     
 }
 
@@ -134,5 +135,10 @@ a:link, a:visited {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    text-align: center;
+    text-align: left;
+    width: 700px;
+}
+
+.quote-author {
+    text-align: right;
 }
