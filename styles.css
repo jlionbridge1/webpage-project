@@ -10,13 +10,10 @@ body {
     padding-bottom: 60px;
     display: flex;
     justify-content: space-evenly;
-}
-
-.header, .footer {
     background-color: #1F2937;
     color: #F9FaF8; 
-
 }
+
 
 .header > .left, .right  {
     display: flex;
