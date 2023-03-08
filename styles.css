@@ -142,7 +142,7 @@ a:link, a:visited {
     text-align: right;
 }
 
-.footer {
+.action-container {
     color: #F9FaF8;
     display: flex;
     justify-content: center;
